@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplaySimulator">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_display"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/display_matrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title_display"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignRight="@+id/title"/>
+
+    <Button
+        android:id="@+id/randomize_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/randomize_button"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/display_matrix"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/bonus_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bonus_button"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/randomize_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+
+</RelativeLayout>

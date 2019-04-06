@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MemberSimulator</string>
+    <string name="title_display">Please enter bitmap size:</string>
+    <string name="hint_title_display">Bitmap size: n,m</string>
+    <string name="prefix_n">n</string>
+    <string name="prefix_m">m</string>
+    <string name="randomize_button">RANDOMIZE</string>
+    <string name="solve_button">SOLVE</string>
+    <string name="restart_button">RESTART</string>
+    <string name="title_sum">FOUND %d ISLANDS!</string>
+    <string name="bonus_button">BONUS:DRAW</string>
+</resources>
